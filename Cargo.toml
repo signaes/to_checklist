@@ -2,6 +2,13 @@
 name = "to_checklist"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/signaes/to_checklist"
+authors = ["Thiago Oliveira <thiago@signaes.com>"]
+description = "A simple CLI tool to read from the clipboard and return a string of check list items, one item per line break"
+readme = "README.md"
+license = "MIT"
+keywords = ["checklist", "CLI"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 clipboard = "0.5.0"
